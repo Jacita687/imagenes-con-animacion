@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basquetbol</title>
+	<link rel="stylesheet" href="basquet.css"/>
+	<script src="basquet.js"></script>
+</head>
+
+<body>
+
+<!-- 
+  Container for the images.
+-->
+<div class="container">
+  <!-- 
+    The markup for each image is a div with the class of card. 
+  -->
+  <div class="card">
+    <!-- 
+      Each "card" has an image container, this is because you need the image to scale and move, we want the scaling to have a smooth transition. However if you add a transition for transform the transform property it will apply to both the scaling and the translation, causeing the translation to "lag" because as it updates where the mouse position is. 
+    -->
+    <div class="img-container">
+      <img id="street" class="img" src="https://i.pinimg.com/564x/96/7e/30/967e3055296795cd1c03fd90a40e7e69.jpg" alt="street" />
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="img-container">
+      <img id="hill" class="img" src="https://i.pinimg.com/564x/6f/2e/e9/6f2ee936ff3fd4ca8981082228286eb8.jpg" alt="hill" />
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="img-container">
+      <img id="lake" class="img" src="https://i.pinimg.com/564x/40/9f/65/409f651aaadd4c516498aeb6c09e80c7.jpg" alt="lake" />
+    </div>
+  </div>
+</div>
+</body>
+</html>

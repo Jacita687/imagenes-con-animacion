@@ -1,0 +1,18 @@
+body,html{height:100%;margin:0;padding:0;background:#E3DFD2}
+svg{
+  background:url('https://i.pinimg.com/564x/16/ab/31/16ab3141e332f86aed497395c1c7f1bf.jpg');
+  background-size:cover;
+  width:40vmin; height:auto;
+  display:block;
+  margin:30vmin auto;
+}
+text{
+  font-size:10px;
+  transition:font-size .4s ease-out;
+  font-weight:900;
+  font-family:arial;
+}
+svg:hover text{
+  transition:font-size .4s ease-in;
+  font-size: 300px;
+}
